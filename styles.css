@@ -1,0 +1,962 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: normal;
+    background-color: #000000;
+    ;
+    color: white;
+}
+
+
+
+.top{
+    max-width: 100%px;
+}
+
+.navbar {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    font-size: 12px;
+    color: #969696;
+}
+
+.nav-list {
+    list-style-type: none;
+}
+
+.nav-list .list-item {
+    display: inline-block;
+    padding: 11px 5px;
+}
+
+.phoneSymbol {
+    width: 13.36px;
+    height: 13.33px;
+}
+
+.loginSymbol {
+    width: 13.36px;
+    height: 13.33px;
+}
+
+.header {
+    background-color: #0F0F0F;
+    color: white;
+    font-size: 14px;
+    color: #969696;
+    align-items: center;
+
+}
+
+
+
+
+.header-list {
+    list-style-type: none;
+    text-transform: uppercase;
+    margin-right: 58px;
+
+    
+}
+
+.header-list .list-item {
+    display: inline-block;
+    padding: 40px 20px;
+}
+
+
+
+
+.searchSymbol {
+    width: 16.5px;
+    height: 16.5px;
+}
+
+.scartSymbol {
+    width: 16.5px;
+    height: 16.5px;
+}
+
+.header a {
+    color: #969696;
+    text-decoration: none;
+}
+
+.header a:hover {
+    color: white;
+}
+
+.header-list .list-item:hover {
+    background-color: #1F1F1F;
+    color: white
+}
+
+.HeaderPorten {
+    font-family: Post No Bills Jaffna;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    color: white;
+    margin-left: 76px;
+}
+
+.menu{
+    position: absolute;
+    right: 20px;
+    top:50px;
+}
+
+
+.menu-line{
+    width: 20px;
+    height: 3px;
+    background-color: white;
+    margin-bottom:4px;
+}
+
+
+
+
+.main {
+    display: flex;
+    color: #FFFFFF;
+    max-width: 1920px;
+    width: 100%;
+    height: 810px;
+    background-image: url(Rectangle\ 3.png);
+    background-repeat: no-repeat; 
+    background-position: center;
+}
+
+.main-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 730px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.main-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 320px;
+    width: 100%;
+    height: 320px;
+    border: 4px solid #FFFFFF;
+    box-sizing: border-box;
+    text-transform: uppercase;
+}
+
+.main-porten {
+    font-family: Post No Bills Jaffna;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 96px;
+    text-align: center;
+}
+
+.lineHR {
+    width: 179px;
+    height: 0px;
+    border: 2px solid #FFFFFF;
+    margin-top: 4px;
+    margin-bottom: 7px;
+}
+
+.main-lorem {
+    margin-top: 80px;
+    text-align: center;
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+
+.main-city {
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.sectionText {
+    font-family: 'Playfair Display', serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 50px;
+}
+
+.left span {
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: block;
+    width: 120px;
+    height: 1px;
+    background-color: white;
+}
+
+.watches {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.color {
+    padding: 60px 10px;
+    background-color: #191B1C;
+    margin-top: 40px;
+}
+
+.watchModel {
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+.watchPrice {
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 21px;
+    color: #D0D0D0;
+}
+
+.sectionContent {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left {
+    padding-bottom: 33px;
+    padding-left: 70px;
+    width: 50%
+}
+
+.right {
+    width: 880px;
+    height: 730px;
+    background-image: url(Rectangle\ 8.png);
+    text-align: center;
+    background-repeat: no-repeat; 
+    background-position: center;
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 484px;
+}
+
+.catalogueText {
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.lineHR1 {
+    width: 120px;
+    height: 0px;
+    border: 1px solid #FFFFFF;
+    margin-top: 30px;
+    margin-bottom: 42px;
+}
+
+.catalogueButton {
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    border: 2px solid #FFFFFF;
+    padding: 25px 50px;
+    text-decoration: none;
+}
+
+.catalogueButton:visited {
+    color: white;
+}
+
+
+
+
+
+.sub-conteiner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sub-left-img {
+    width: 880px;
+    height: 600px;
+    background-image: url(Rectangle\ 9.png);
+    background-repeat: no-repeat; 
+    background-position: center;
+}
+
+.sub-right-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+}
+
+.old-collection {
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.lineHR2 {
+    width: 120px;
+    height: 0px;
+    border: 1px solid #FFFFFF;
+    margin: 40px 0px 40px 0px;
+}
+
+.sub-lorem {
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    margin: 0px 284px 73px 284px;
+}
+
+.sub-look {
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    border: 2px solid #FFFFFF;
+    padding: 10px 40px;
+    text-decoration: none;
+}
+
+.sub-look:visited {
+    color: white;
+}
+
+.new-watches {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.watch-new {
+    margin-left: 23px;
+    margin-top: 40px;
+}
+
+.new-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.new-title-text {
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+    /* identical to box height */
+    margin-top: 120px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.lineHR3 {
+    width: 120px;
+    height: 0px;
+    border: 1px solid #FFFFFF;
+    margin: 40px 0px 41px 0px;
+}
+
+.new-container {
+    margin-bottom: 150px;
+}
+
+.brands {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #0F0F0F;
+}
+
+.brands-logos {
+    display: flex;
+    justify-content: space-between;
+}
+
+.brands-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.brands-text {
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+    /* identical to box height */
+    text-align: center;
+    text-transform: uppercase;
+    margin: 60px 0px 40px 0px;
+}
+
+.lineHR4 {
+    width: 120px;
+    height: 0px;
+    border: 1px solid #FFFFFF;
+    margin-bottom: 40px;
+}
+
+.b-logo {
+    margin: 0px 15px 74px 15px;
+}
+
+.information {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-image: url(Rectangle\ 15.png);
+    height: 400px;
+    align-items: center;
+}
+
+.about-us {
+    width: 350px;
+    margin-left: 405px;
+    height: 300px;
+}
+
+.about-us-text {
+    text-align: left;
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150%;
+}
+
+.about-us-title {
+    text-align: left;
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 32px;
+    /* identical to box height */
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+
+.categories {
+    margin-left: 31px;
+    width: 350px;
+    height: 300px;
+}
+
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150%;
+}
+
+.categories-button span {
+    background-color: #0F0F0F;
+    padding: 10px 20px;
+}
+
+.categories-button {
+    margin: 15px 15px 15px 0px;
+}
+
+.categories-title {
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 32px;
+    /* identical to box height */
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.links {
+    margin-right: 405px;
+    margin-left: 92px;
+    width: 420px;
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+}
+
+.links-title {
+    margin-bottom: 40px;
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 32px;
+    /* identical to box height */
+    text-transform: uppercase;
+}
+
+.links-text {
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150%;
+    /* or 21px */
+    margin-bottom: 37px;
+}
+
+.form-control {
+    background-color: gray;
+    border: 0;
+    opacity: 40%;
+    width: 210px;
+    height: 42px;
+}
+
+::placeholder {
+    color: white;
+    padding-left: 15px;
+}
+
+.btn {
+    border: 0;
+    width: 140px;
+    height: 41px;
+    background-color: #0F0F0F;
+    color: white;
+}
+
+.footer-info {
+    display: flex;
+    justify-content: space-around;
+    height: 50px;
+    align-items: center;
+    background: #0F0F0F;
+}
+
+.footer-r {
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.footer-made {
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 16px;
+    /* identical to box height */
+    text-align: right;
+}
+
+.footer-made:visited {
+    color: white;
+}
+
+.footer-made:link{
+    color: white;
+}
+
+.catalogueButton:link{
+    color: white;
+}
+
+.sub-look:link{
+    color: white;
+}
+
+
+
+@media (min-width: 1160px){
+    .icon{
+        display: none ;
+    }
+    .header{
+        display: flex;
+        justify-content: space-around;
+    }
+    .slider{
+        display: none;
+    }
+}
+
+
+@media(max-width:1160px){
+.header #myLinks{
+    display: none;
+}
+
+
+    .sectionContent{
+        flex-direction: column;
+    }
+.watches{
+    flex-direction: column;
+}
+
+.right{
+    width: auto;
+}
+
+.sub-conteiner{
+    flex-direction: column;
+}
+
+.sub-left{
+    display: none;
+}
+
+.new-watches{
+    flex-direction: column;
+    align-items: center;
+}
+
+.brands-logos{
+    flex-direction: column;
+}
+
+.about-us{
+    margin-left: 0px;
+    width: auto;
+}
+
+.information{
+    display: block;
+    height: auto;
+    background-position: center;
+    background-size: 500% 100%;
+}
+
+.links{
+    margin-left: 0px;
+    margin-right: 0px;
+    width: auto;
+}
+
+.categories{
+    margin-left: 0px;
+    width: auto;
+    height: auto;
+}
+
+.navbar{
+    display: block;
+    margin-left: 10px;
+}
+
+.HeaderPorten{
+    display: none;
+}
+
+.header-list{
+display: flex;
+flex-direction: column;
+width: 100%;
+text-align: center;
+
+}
+
+.header-list .list-item {
+    padding: 10px 10px;
+    border-bottom: 1px solid #191B1C;
+}
+
+.left{
+    padding-left: 0px;
+    width: 100%;
+}
+
+.watches{
+    align-items: center;
+}
+.text{
+    margin-top: 300px;
+}
+
+.sub-right-text{
+    margin-top: 50px;
+}
+.lineHR2{
+    margin: 20px 0px 20px 0px;
+}
+.sub-lorem{
+    margin: 0px 10px 20px 10px;
+}
+
+.sub-conteiner{
+    background-image: url(Rectangle\ 9.png);
+    height: 500px;
+    background-repeat: no-repeat; 
+    background-position: center;
+}
+.new-title-text{
+    margin-top: 50px;
+}
+.lineHR3{
+    margin: 20px 0px 20px 0px;
+}
+
+.new-container{
+    margin-bottom: 50px;
+}
+
+.about-us-title{
+    text-align: center;
+    margin-bottom: 10px;
+    padding-top: 20px;
+}
+
+.about-us-text{
+    text-align: center;
+    margin: 0px 15px 10px 15px;
+}
+
+.about-us{
+    height: auto;
+
+}
+
+.categories-title{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.buttons{
+    justify-content: center;
+}
+
+.links-title{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.links-text{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.links{
+    height: auto;
+}
+
+
+.form-group{
+    display: flex;
+    margin-bottom: 25px;
+}
+
+.form-control{
+    width: 50%;
+}
+
+.btn {
+    width: 50%;
+}
+
+.main-lorem{
+    margin: 60px 10px 0px 10px;
+}
+
+.old-collection{
+    margin-top: 50px;
+}
+
+.watches1{
+    display: none;
+}
+
+
+}
+
+
+
+
+
+
+@media(max-width:1800px){
+    .right{
+        width: auto;
+    }
+
+
+    .sub-conteiner{
+        display: block;
+    }
+
+
+}
+
+@media (min-width: 2000px){
+.main{ 
+ 
+
+
+    background-size: 100% 100%;
+    width:auto;
+    max-width: 8000px;
+
+}
+
+.new-watches{
+    width: auto;
+}
+.watches1{
+display: flex;
+justify-content: center;
+}
+
+.sub-lorem{
+    margin: 0px 300px 73px 300px;
+    font-size: 20px;
+}
+
+
+
+}
+ 
+
+/* FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF */
+
+
+
+/* Slideshow container */
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+  }
+  
+  /* Make the images invisible by default */
+  .Containers {
+    display: none;
+    
+  }
+  
+  /* forward & Back buttons */
+  .Back, .forward {
+    cursor: pointer;
+    position: absolute;
+    top: 48%;
+    width: auto;
+    margin-top: -23px;
+    padding: 17px;
+    color: grey;
+    font-weight: bold;
+    font-size: 19px;
+    transition: 0.4s ease;
+    border-radius: 0 5px 5px 0;
+    user-select: none;
+  }
+  
+  /* Place the "forward button" to the right */
+  .forward {
+    right: 0;
+    border-radius: 4px 0 0 4px;
+  }
+  
+  /*when the user hovers,add a black background with some little opacity */
+  .Back:hover, .forward:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  
+  /* Caption Info */
+  .Info {
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+ .Info1{
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 21px;
+    color: #D0D0D0;
+    text-align: center;
+ }
+
+
+
+  .Containers img{
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+  }
+
+
+  .Containers {
+    animation: fadeInRight; /* referring directly to the animation's @keyframe declaration */
+   animation-duration: 0.5s;
+   }
